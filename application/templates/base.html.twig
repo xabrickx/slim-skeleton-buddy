@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          {% block title %}
+            SlimSkeletonBuddy
+          {% endblock %}
+        </title>
+        {% block commonstyles %}
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/base.css">
+        {% endblock %}
+        {% block headstyles %}
+
+        {% endblock %}
+
+        {% block headscripts %}
+
+        {% endblock %}
+
+    </head>
+    <body>
+      <header>
+        {% block header %}
+          
+        {% endblock %}
+      </header>
+      <section id="main" class="{% block main_class %}{% endblock %}">
+	      {% block main %}
+
+        {% endblock %}
+      </section>
+      <footer>
+        {% block footer %}
+          
+        {% endblock %}
+      </footer>
+      
+      {% block bodystyles %}
+
+      {% endblock %}      
+      {% block bodyscripts %}
+
+      {% endblock %}
+
+    </body>
+</html>

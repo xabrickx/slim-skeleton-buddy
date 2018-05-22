@@ -1,0 +1,22 @@
+{
+    "name": "xabrickx/slim-skeleton-buddy",
+    "description": "A Slim PHP project skeleton",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.0",
+        "adoy/oauth2": "^1.0",
+        "slim/twig-view": "^2.1",
+        "monolog/monolog": "^1.22",
+        "ezimuel/php-secure-session": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "ircmaxell/random-lib": "^1.2",
+        "slim/flash": "^0.4.0",
+        "hassankhan/config": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "../application/SecureSessionHandler.php"
+        ]
+    },
+    "license": "MIT"
+}

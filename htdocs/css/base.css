@@ -1,0 +1,55 @@
+html{
+  font-size:1em;
+}
+html, body{
+  height : 100%;
+  position: relative;
+  width:100%;
+}
+
+header{
+  background-color:#FFF;
+
+}
+body{
+  /* font-family: 'Open Sans', sans-serif; */
+  display : grid;
+  grid-template-rows: minmax(100px, 10%) 1fr 60px;
+}
+
+footer{
+  background-color:#DDD;
+}
+
+
+#main{
+  background-color:#EEE;
+  
+}
+.side{}
+
+
+.warn {
+  background-color : #400;
+  color : white;
+  font-size : 1em;
+  font-weight : bold;
+  margin-bottom: 0.4em;
+  padding : 6px 10px;
+}
+.success {
+  background-color : #040;
+  color : white;
+  font-size : 1em;
+  font-weight : bold;
+  margin-bottom: 0.4em;
+  padding : 6px 10px;
+}
+.info {
+  background-color : #F96;
+  color : black;
+  font-size : 1em;
+  font-weight : bold;
+  margin-bottom: 0.4em;
+  padding : 6px 10px;
+}
