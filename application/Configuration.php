@@ -1,5 +1,5 @@
 <?php
-namespace SlimSkeletonBuddy\;
+namespace SlimSkeletonBuddy;
 
 use Noodlehaus\Config;
 
